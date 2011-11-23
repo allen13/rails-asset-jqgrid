@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["allen13"]
   s.email       = ["kex.allen13@gmail.com"]
   s.homepage    = ""
-  s.summary     = "A gemified version of the jqgrid javascript library with some extra helper functions."
-  s.description = "A gemified version of the jqgrid javascript library with some extra helper functions."
+  s.summary     = "A gemified version of the jqgrid javascript library."
+  s.description = "A gemified version of the jqgrid javascript library."
 
   s.rubyforge_project = "rails-asset-jqgrid"
 
@@ -20,5 +20,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec"
+  s.add_development_dependency "rails", ">= 3.1.0"
   s.add_runtime_dependency "jquery-rails"
 end
