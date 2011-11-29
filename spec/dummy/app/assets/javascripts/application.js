@@ -5,6 +5,10 @@
 // the compiled file.
 //
 //= require jquery
-//= require jquery_ujs
-//= require_tree .
 //= require jqgrid
+//= require jqgrid.arraydata
+
+
+
+
+
