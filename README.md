@@ -6,7 +6,7 @@ Gemified/Assetized version of the [jQGrid](http://trirand.com/blog/jqgrid/jqgrid
 
 ###Gemfile Include
 
-    gem "rails-asset-jquery"
+    gem "rails-asset-jqueryui"
     gem "rails-asset-jqgrid"
 
 ###Javascript File Include
