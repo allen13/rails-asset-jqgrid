@@ -8,8 +8,6 @@ gemspec
 require 'rbconfig'
 HOST_OS = RbConfig::CONFIG['host_os']
 
-source 'http://rubygems.org'
-
 gem 'rails', '3.1.3'
 
 # Bundle edge Rails instead:
@@ -71,4 +69,5 @@ gem "guard-rspec", ">= 0.4.3", :group => :development
 gem "guard-cucumber", ">= 0.6.1", :group => :development
 gem "haml", ">= 3.1.2"
 gem "haml-rails", ">= 0.3.4", :group => :development
+gem "rails-asset-jqueryui", ">= 0.0.3"
 
