@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Rails::Asset::Jqgrid::VERSION
   s.authors     = ["allen13"]
   s.email       = ["kex.allen13@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/allen13/rails-asset-jqgrid"
   s.summary     = "A gemified version of the jqgrid javascript library."
   s.description = "A gemified version of the jqgrid javascript library."
 
