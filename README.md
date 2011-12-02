@@ -9,7 +9,8 @@ Gemified/Assetized version of the [jQGrid](http://trirand.com/blog/jqgrid/jqgrid
     gem "rails-asset-jqueryui"
     gem "rails-asset-jqgrid"
 
-###Javascript File Include
+###Default Javascript File Include
+This includes english as the default i18n library. You can use others by adding a - with the i18n extension.
 
     //= require jqgrid
 
@@ -20,3 +21,7 @@ The [rails-asset-jquery](https://github.com/allen13/rails-asset-jqueryui "rails-
      * =require black-tie
      * =require jqgrid
      */
+
+###Javascript File Include with Spanish as the i18n Library
+
+    //= require jqgrid-es
